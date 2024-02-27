@@ -1,0 +1,38 @@
+img {margin: 0px;
+border-radius: 50%;}
+
+@font-face {
+        font-family: 'quicksand';
+        src: url(/quicksand/quicksand-variablefont_wght-webfont.woff) format('woff');
+        src: url(/quicksand/quicksand-variablefont_wght-webfont.woff2) format('woff2');
+}
+
+
+h1, h2, h3 {text-align: center;
+            font-weight:  bold;
+            margin: 10px;
+            font-family: montserrat;
+            color: white;
+            font-family: 'quicksand';
+            ;}
+
+body {text-align: center;
+    font-family: 'quicksand';
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    }
+
+.button {background-color: rgba(61, 60, 60, 0.459);
+        color: white;
+        font-family: 'quicksand';
+        font-weight: 600;
+        font-size: 25px;
+        border: 0px;
+        padding: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 500px;
+        margin: 10px auto;
+        display: block;}
